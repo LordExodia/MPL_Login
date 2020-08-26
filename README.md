@@ -3,13 +3,19 @@ Es una aplicación web service de tipo SOAP desarrollada en Maven que permite va
 
 <hr>
 ### Pantalla de inicio del aplcaitivo.
-[!Inicio](https://raw.githubusercontent.com/LordExodia/MPL_Login/master/login.png)
+
+
+![Inicio](https://raw.githubusercontent.com/LordExodia/MPL_Login/master/login.png)
 
 ### Pantalla mostrada al ingresar credenciales validas.
-[!Login Exitoso](https://raw.githubusercontent.com/LordExodia/MPL_Login/master/loginexitoso.png)
+
+
+![Login Exitoso](https://raw.githubusercontent.com/LordExodia/MPL_Login/master/loginexitoso.png)
 
 ### Pantalla mostrada al ingresar credenciales incorrectas.
-[!Login Fallido](https://raw.githubusercontent.com/LordExodia/MPL_Login/master/loginfallido.png)
+
+
+![Login Fallido](https://raw.githubusercontent.com/LordExodia/MPL_Login/master/loginfallido.png)
 
 <hr>
 
