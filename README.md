@@ -1,9 +1,8 @@
 # MPL Prueba
 Es una aplicación web service de tipo SOAP desarrollada en Maven que permite validar un login y consumir el token de respuesta.
 
-<hr>
 ## Pantalla de inicio del aplcaitivo.
-<hr>
+
 
 ![Inicio](https://raw.githubusercontent.com/LordExodia/MPL_Login/master/login.png)
 
