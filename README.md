@@ -9,7 +9,7 @@ Es una aplicación web service de tipo SOAP desarrollada en Maven que permite va
 ## Pantalla mostrada al ingresar credenciales validas.
 
 
-![Login Exitoso](https://raw.githubusercontent.com/LordExodia/MPL_Login/master/loginexitoso.png)
+![Login Exitoso](https://raw.githubusercontent.com/LordExodia/MPL_Login/master/nuevologinexitoso.png)
 
 ## Pantalla mostrada al ingresar credenciales incorrectas.
 
