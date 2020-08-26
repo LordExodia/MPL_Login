@@ -76,6 +76,7 @@ public class Login {
 			}
 			// Envia rs con la información del Token de acceso para mostrarlo en el login.
 			model.addAttribute("rs", "Token de sesión: \n" + rs);
+			model.addAttribute("id", id);
 
 			// Escribe en el archivo el nuevo JSON
 			Writer fw = new FileWriter(archivo, false);
@@ -84,9 +85,18 @@ public class Login {
 			bw.close();
 			fw.close();
 
+			return "welcome";
+
 		} catch (Exception e) { //Si las credenciales son incorrectas atrapa la excepción y notifica al usuario.
 			model.addAttribute("rs", "Credenciales incorrectas. \nId o Contraseña erronea.");
+
+
+			return "login";
 		}
+	}
+	
+	@RequestMapping(value = "/out", method = RequestMethod.GET)
+	public String loginOut(Model model) {
 
 		return "login";
 	}
